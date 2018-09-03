@@ -7,10 +7,10 @@ find_package(catkin REQUIRED COMPONENTS dynamic_reconfigure message_generation r
 #  FILES
 #)
 
-generate_messages(
-    DEPENDENCIES
-    std_msgs
-)
+#generate_messages(
+#    DEPENDENCIES
+#    std_msgs
+#)
 
 generate_dynamic_reconfigure_options(
     cfg/linoPID.cfg
